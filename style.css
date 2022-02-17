@@ -1,8 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 h1 {
-  font-size: xx-large;
+  font-size: 60px;
   color: gray;
 }
 span {
@@ -10,6 +11,7 @@ span {
 }
 p {
   color: gray;
+  padding-bottom: 20px;
 }
 a {
   text-decoration: none;
@@ -28,15 +30,46 @@ a {
   width: 50%;
 }
 .common img {
-  width: 80%;
+  width: 90%;
 }
 #first-banner {
-  background-image: url(images/shapes/frame5.jpg);
+  background-image: url(images/shapes/frame6.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-size: 100%;
 }
 #second-banner {
-  background-image: url(images/shapes/frame1.jpg);
+  background-image: url(images/shapes/frame7.jpg);
   background-repeat: no-repeat;
-  background-position: left;
+  background-size: 100%;
+}
+#first-div {
+  padding: 80px;
+}
+#second-div {
+  padding: 80px;
+}
+#third-div {
+  text-align: center;
+  padding-right: 250px;
+  padding-left: 250px;
+  padding-top: 70px;
+  color: gray;
+}
+.food-recipi img {
+  width: 100%;
+}
+.food-recipi {
+  text-align: center;
+  margin: 0 20px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 40px gray;
+  background-color: white;
+  padding: 10px;
+  padding-bottom: 0px;
+  width: 30%;
+}
+#third-banner {
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
