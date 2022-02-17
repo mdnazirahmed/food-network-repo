@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1 {
+  font-size: xx-large;
+  color: gray;
+}
+span {
+  color: orange;
+}
+p {
+  color: gray;
+}
+a {
+  text-decoration: none;
+  background-color: rgb(238, 17, 54);
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.flexible {
+  display: flex;
+}
+.common {
+  width: 50%;
+}
+.common img {
+  width: 80%;
+}
+#first-banner {
+  background-image: url(images/shapes/frame5.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#second-banner {
+  background-image: url(images/shapes/frame1.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
