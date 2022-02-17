@@ -30,7 +30,7 @@ a {
   width: 50%;
 }
 .common img {
-  width: 90%;
+  width: 100%;
 }
 #first-banner {
   background-image: url(images/shapes/frame6.jpg);
@@ -55,16 +55,20 @@ a {
   padding-top: 70px;
   color: gray;
 }
-.food-recipi img {
+#flexible-margine {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.food-recipe img {
   width: 100%;
 }
-.food-recipi {
+.food-recipe {
   text-align: center;
   margin: 0 20px;
-  border-radius: 25px;
+  border-radius: 35px;
   box-shadow: 10px 10px 40px gray;
   background-color: white;
-  padding: 10px;
+  padding: 15px;
   padding-bottom: 0px;
   width: 30%;
 }
@@ -72,4 +76,33 @@ a {
   background-color: white;
   background-repeat: no-repeat;
   background-size: 100%;
+}
+#last-section {
+  box-shadow: 10px 10px 40px rgb(116, 110, 110);
+  width: 80%;
+  margin: 0 10%;
+  margin-top: 50px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  display: flex;
+}
+.before-footer {
+  margin: 10px 20px;
+}
+#footer-section {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  background-color: black;
+}
+h2 {
+  color: gray;
+}
+h5 {
+  color: white;
+  font-weight: 30;
+  padding-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
