@@ -79,7 +79,7 @@ a {
 }
 #last-section {
   box-shadow: 10px 10px 40px rgb(116, 110, 110);
-  width: 80%;
+  width: 50%;
   margin: 0 10%;
   margin-top: 50px;
   border-radius: 20px;
@@ -95,6 +95,7 @@ a {
   margin-top: 40px;
   padding-top: 20px;
   background-color: black;
+  margin-bottom: 0%;
 }
 h2 {
   color: gray;
